@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/home/HomePage.css";
+import "@/styles/home/HomePage.css";
 const HomePage = () => {
    return (
     <div className="home-container">
