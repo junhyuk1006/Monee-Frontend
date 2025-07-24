@@ -1,8 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-html, body, #root {
-  height: 100%;
-  margin: 0;       /* ✅ 이거 꼭 필요함! */
-  padding: 0;
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.box {
+  background-color: #fecaca;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
 }

@@ -1,0 +1,72 @@
+/* 전체 화면 중앙 정렬 배경 */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f3f4f6, #ffffff); /* gray-100 to white */
+  padding: 1rem;
+  text-align: center;
+}
+
+/* 박스 스타일 */
+.home-box {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  max-width: 28rem;
+  width: 100%;
+}
+
+/* 제목 */
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1f2937; /* gray-800 */
+  margin-bottom: 1rem;
+}
+
+/* 부제목 */
+.home-subtitle {
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+/* 버튼 그룹 */
+.home-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* 공통 버튼 */
+.home-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.2s ease;
+}
+
+/* 로그인 버튼 */
+.home-button.login {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+}
+
+.home-button.login:hover {
+  background-color: #2563eb; /* blue-600 */
+}
+
+/* 회원가입 버튼 */
+.home-button.register {
+  background-color: #e5e7eb; /* gray-200 */
+  color: #1f2937; /* gray-800 */
+}
+
+.home-button.register:hover {
+  background-color: #d1d5db; /* gray-300 */
+}
