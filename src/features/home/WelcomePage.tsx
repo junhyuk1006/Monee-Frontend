@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "@/styles/home/HomePage.css";
-const HomePage = () => {
+import "@/styles/home/WelcomePage.css";
+const WelcomePage = () => {
    return (
     <div className="home-container">
       <div className="home-box">
@@ -15,4 +15,4 @@ const HomePage = () => {
     </div>
   );
 };
-export default HomePage;
+export default WelcomePage;

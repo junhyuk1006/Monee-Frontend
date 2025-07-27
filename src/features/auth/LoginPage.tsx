@@ -23,7 +23,7 @@ const LoginPage = () => {
         nickname: response.nickname,
       }));
 
-      navigate('/');
+      navigate('/main');
     } catch (err) {
       alert('로그인 실패!');
       console.error(err);

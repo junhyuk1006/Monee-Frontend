@@ -1,0 +1,50 @@
+.main-container {
+  font-family: sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feed-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feed-card {
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.feed-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.feed-content {
+  margin: 0.5rem 0;
+}
+
+.feed-footer {
+  color: #666;
+  font-size: 0.85rem;
+}
