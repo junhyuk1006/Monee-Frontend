@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import "@/styles/home/MainPage.css"; // Tailwind 안 쓴 경우
+import "@/styles/home/MainPage.css"; 
 
 const MainPage = () => {
 

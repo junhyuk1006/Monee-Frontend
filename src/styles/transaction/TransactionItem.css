@@ -1,0 +1,35 @@
+.transaction-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+.transaction-item:hover {
+  background-color: #f5f5f5;
+}
+
+.transaction-item.income .amount {
+  color: blue;
+}
+
+.transaction-item.expense .amount {
+  color: red;
+}
+
+.item-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.item-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  color: #666;
+}

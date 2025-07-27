@@ -10,8 +10,8 @@ const Navbar = () =>{
             <div className="logo">Monee</div>
             <nav className="nav-menu">
                 <Link to="/main">홈</Link>
-                <Link to="/transactions">통계</Link>
-                <Link to="/post">작성</Link>
+                <Link to="/post">글 작성</Link>
+                <Link to="/transaction">가계부</Link>
             </nav>
             <div className="user-icon" onClick={()=> setShowMenu(!showMenu)}>
             👤
